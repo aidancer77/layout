@@ -52,21 +52,28 @@
 
          <div class="row">
             <div class="col-3">
+
                <div class="row">
                   <div class="col">
-                     <div class="row height-8">
-                        <div class="col-6 border">
-                           <div class="row p-2"></div>
+                     <div class="row">
+                        <div class="col-6">
+                           <div class="row height-15 p-1 pt-2 ps-2">
+                              <div class="col border"></div>
+                           </div>
                         </div>
-                        <div class="col-6 border"></div>
+                        <div class="col-6">
+                           <div class="row height-15 p-1 pt-2">
+                              <div class="col border"></div>
+                           </div>
+                        </div>
                      </div>
                   </div>
                </div>
 
-               <div class="row height-18"> <!--checkbox-->
-                  <div class="col w-50 ">
-                     <div class="row pe-1">
-                        <div class="col border">
+               <div class="row font"> <!--checkbox-->
+                  <div class="col">
+                     <div class="row height-18 p-1 ps-2">
+                        <div class="col-4 border">
                            <div class="form-check">
                               <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                               <label class="form-check-label" for="flexCheckDefault">4.1</label>
@@ -92,7 +99,7 @@
                               <label class="form-check-label" for="flexCheckDefault">4.6</label>
                            </div>
                         </div>
-                        <div class="col border">
+                        <div class="col-4 border">
                            <div class="form-check">
                               <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                               <label class="form-check-label" for="flexCheckDefault">4.7</label>
@@ -118,7 +125,7 @@
                               <label class="form-check-label" for="flexCheckDefault">4.12</label>
                            </div>
                         </div>
-                        <div class="col border">
+                        <div class="col-4 border">
                            <div class="form-check">
                               <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                               <label class="form-check-label" for="flexCheckDefault">5.1</label>
@@ -146,113 +153,261 @@
                         </div>
                      </div>
                   </div>
-
-                  <div class="col bg-success border">
-                     <div class="row ps-1"></div>
-                  </div>
                </div>
-
-               <div class="row height-7"> <!--car count-->
+               <div class="row height-12 p-1 ps-2"> <!--cars & volume-->
                   <div class="col p-0">
-                     <div class="border bg-light d-flex h-50">
-                        <div class="d-flex align-items-center w-100 ps-3">
-                           <div>Количество машин в работе:</div>
+                     <div class="h-50">
+                        <div class="border bg-light d-flex h-50">
+                           <div class="d-flex align-items-center w-100 ps-3">
+                              <div>Количество машин в работе:</div>
+                           </div>
+                           <div class="bg-light d-flex justify-content-end align-items-center pe-3">10</div>
                         </div>
-                        <div class="bg-light d-flex justify-content-end align-items-center pe-3">10</div>
+                        <div class="border bg-light d-flex h-50">
+                           <div class="d-flex align-items-center w-100 ps-3">
+                              <div>Количество машин не в работе:</div>
+                           </div>
+                           <div class="d-flex justify-content-end align-items-center pe-3">8</div>
+                        </div>
                      </div>
-                     <div class="border bg-light d-flex m-0 h-50">
-                        <div class="d-flex align-items-center w-100 ps-3">
-                           <div>Количество машин не в работе:</div>
+                     <div class="h-50">
+                        <div class="border bg-light d-flex h-50">
+                           <div class="d-flex align-items-center w-100 ps-3">
+                              <div>Общая мощность по объекту:</div>
+                           </div>
+                           <div class="bg-light d-flex justify-content-end align-items-center w-50 pe-3">1230 Вт
+                           </div>
                         </div>
-                        <div class="d-flex justify-content-end align-items-center pe-3">8</div>
+                        <div class="border bg-light d-flex h-50">
+                           <div class="d-flex align-items-center w-100 ps-3">
+                              <div>Общая мощность по группе:</div>
+                           </div>
+                           <div class="d-flex justify-content-end align-items-center w-50 pe-3">456 Вт</div>
+                        </div>
                      </div>
                   </div>
                </div>
 
-               <div class="row">
-                  <div class="col">
-
-                     <div class="row height-12"> <!--volume scale-->
-                        <div class="col p-0">
-                           <div class="border bg-light d-flex h-50">
-                              <div class="d-flex align-items-center w-100 ps-3">
-                                 <div>Общая мощность по объекту:</div>
+               <div class="row"> <!--volume scale -->
+                        <div class="col">
+                           <div class="row height-54 p-1 ps-2 pb-2">
+                              <div class="col border border-end-0">
+                                 <div class="row h-30">
+                                    <div class="col p-2">
+                                       <div class="d-flex justify-content-center align-items-end height-auto w-100 border border-5">
+                                          <div class=" w-100 bg-success volume_4_1"></div>
+                                       </div>
+                                       <div>
+                                          <div class="d-flex justify-content-center align-items-center pt-1">1</div>
+                                          <div class="d-flex justify-content-center align-items-center">4.1</div>
+                                       </div>
+                                    </div>
+                                    <div class="col p-2">
+                                       <div class="d-flex justify-content-center align-items-end height-auto w-100 border border-5">
+                                          <div class=" w-100 bg-success volume_4_2"></div>
+                                       </div>
+                                       <div>
+                                          <div class="d-flex justify-content-center align-items-center pt-1">1</div>
+                                          <div class="d-flex justify-content-center align-items-center">4.2</div>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="row h-30">
+                                    <div class="col p-2">
+                                       <div class="d-flex justify-content-center align-items-end height-auto w-100 border border-5">
+                                          <div class=" w-100 bg-success volume_4_3"></div>
+                                       </div>
+                                       <div>
+                                          <div class="d-flex justify-content-center align-items-center pt-1">1</div>
+                                          <div class="d-flex justify-content-center align-items-center">4.3</div>
+                                       </div>
+                                    </div>
+                                    <div class="col p-2">                                       
+                                       <div class="d-flex justify-content-center align-items-end height-auto w-100 border border-5">
+                                          <div class=" w-100 bg-success volume_4_4"></div>
+                                       </div>
+                                       <div>
+                                          <div class="d-flex justify-content-center align-items-center pt-1">1</div>
+                                          <div class="d-flex justify-content-center align-items-center">4.4</div>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="row h-30">
+                                    <div class="col p-2">
+                                       <div class="d-flex justify-content-center align-items-end height-auto w-100 border border-5">
+                                          <div class=" w-100 bg-success volume_4_5"></div>
+                                       </div>
+                                       <div>
+                                          <div class="d-flex justify-content-center align-items-center pt-1">1</div>
+                                          <div class="d-flex justify-content-center align-items-center">4.5</div>
+                                       </div>
+                                    </div>
+                                    <div class="col p-2">
+                                       <div class="d-flex justify-content-center align-items-end height-auto w-100 border border-5">
+                                          <div class=" w-100 bg-success volume_4_6"></div>
+                                       </div>
+                                       <div>
+                                          <div class="d-flex justify-content-center align-items-center pt-1">1</div>
+                                          <div class="d-flex justify-content-center align-items-center">4.6</div>
+                                       </div>
+                                    </div>
+                                 </div>
                               </div>
-                              <div class="bg-light d-flex justify-content-end align-items-center pe-3">123Вт</div>
-                           </div>
-                           <div class="border bg-light d-flex m-0 h-50">
-                              <div class="d-flex align-items-center w-100 ps-3">
-                                 <div>Общая мощность по группе:</div>
-                              </div>
-                              <div class="d-flex justify-content-end align-items-center pe-3">456Вт</div>
-                           </div>
-                        </div>
-                     </div>
 
-                     <div class="row">
-                        <div class="col">
-                           <div class="row height-18">
-                              <div class="col border"></div>
-                              <div class="col border"></div>
-                              <div class="col border"></div>
-                              <div class="col border"></div>
-                              <div class="col border"></div>
-                              <div class="col border"></div>
-                           </div>
-                        </div>
-                     </div>
+                              <div class="col border">
+                                 <div class="row h-30">
+                                    <div class="col p-2">
+                                       <div class="d-flex justify-content-center align-items-end height-auto w-100 border border-5">
+                                          <div class=" w-100 bg-success volume_4_7"></div>
+                                       </div>
+                                       <div>
+                                          <div class="d-flex justify-content-center align-items-center pt-1">1</div>
+                                          <div class="d-flex justify-content-center align-items-center">4.1</div>
+                                       </div>
+                                    </div>
+                                    <div class="col p-2">
+                                       <div class="d-flex justify-content-center align-items-end height-auto w-100 border border-5">
+                                          <div class=" w-100 bg-success volume_4_8"></div>
+                                       </div>
+                                       <div>
+                                          <div class="d-flex justify-content-center align-items-center pt-1">1</div>
+                                          <div class="d-flex justify-content-center align-items-center">4.2</div>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="row h-30">
+                                    <div class="col p-2">
+                                       <div class="d-flex justify-content-center align-items-end height-auto w-100 border border-5">
+                                          <div class=" w-100 bg-success volume_4_9"></div>
+                                       </div>
+                                       <div>
+                                          <div class="d-flex justify-content-center align-items-center pt-1">1</div>
+                                          <div class="d-flex justify-content-center align-items-center">4.3</div>
+                                       </div>
+                                    </div>
+                                    <div class="col p-2">                                       
+                                       <div class="d-flex justify-content-center align-items-end height-auto w-100 border border-5">
+                                          <div class=" w-100 bg-success volume_4_10"></div>
+                                       </div>
+                                       <div>
+                                          <div class="d-flex justify-content-center align-items-center pt-1">1</div>
+                                          <div class="d-flex justify-content-center align-items-center">4.4</div>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="row h-30">
+                                    <div class="col p-2">
+                                       <div class="d-flex justify-content-center align-items-end height-auto w-100 border border-5">
+                                          <div class=" w-100 bg-success volume_4_11"></div>
+                                       </div>
+                                       <div>
+                                          <div class="d-flex justify-content-center align-items-center pt-1">1</div>
+                                          <div class="d-flex justify-content-center align-items-center">4.5</div>
+                                       </div>
+                                    </div>
+                                    <div class="col p-2">
+                                       <div class="d-flex justify-content-center align-items-end height-auto w-100 border border-5">
+                                          <div class=" w-100 bg-success volume_4_12"></div>
+                                       </div>
+                                       <div>
+                                          <div class="d-flex justify-content-center align-items-center pt-1">1</div>
+                                          <div class="d-flex justify-content-center align-items-center">4.6</div>
+                                       </div>
+                                    </div>
+                                 </div>
+                             </div>
 
-                     <div class="row">
-                        <div class="col">
-                           <div class="row height-18">
-                              <div class="col border"></div>
-                              <div class="col border"></div>
-                              <div class="col border"></div>
-                              <div class="col border"></div>
-                              <div class="col border"></div>
-                              <div class="col border"></div>
+                              <div class="col border border-start-0">
+                                 <div class="row h-30">
+                                    <div class="col p-2">
+                                       <div class="d-flex justify-content-center align-items-end height-auto w-100 border border-5">
+                                          <div class=" w-100 bg-success volume_5_1"></div>
+                                       </div>
+                                       <div>
+                                          <div class="d-flex justify-content-center align-items-center pt-1">1</div>
+                                          <div class="d-flex justify-content-center align-items-center">5.1</div>
+                                       </div>
+                                    </div>
+                                    <div class="col p-2">
+                                       <div class="d-flex justify-content-center align-items-end height-auto w-100 border border-5">
+                                          <div class=" w-100 bg-success volume_5_2"></div>
+                                       </div>
+                                       <div>
+                                          <div class="d-flex justify-content-center align-items-center pt-1">1</div>
+                                          <div class="d-flex justify-content-center align-items-center">5.2</div>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="row h-30">
+                                    <div class="col p-2">
+                                       <div class="d-flex justify-content-center align-items-end height-auto w-100 border border-5">
+                                          <div class=" w-100 bg-success volume_5_3"></div>
+                                       </div>
+                                       <div>
+                                          <div class="d-flex justify-content-center align-items-center pt-1">1</div>
+                                          <div class="d-flex justify-content-center align-items-center">5.3</div>
+                                       </div>
+                                    </div>
+                                    <div class="col p-2">                                       
+                                       <div class="d-flex justify-content-center align-items-end height-auto w-100 border border-5">
+                                          <div class=" w-100 bg-success volume_5_4"></div>
+                                       </div>
+                                       <div>
+                                          <div class="d-flex justify-content-center align-items-center pt-1">1</div>
+                                          <div class="d-flex justify-content-center align-items-center">5.4</div>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="row h-30">
+                                    <div class="col p-2">
+                                       <div class="d-flex justify-content-center align-items-end height-auto w-100 border border-5">
+                                          <div class=" w-100 bg-success volume_5_5"></div>
+                                       </div>
+                                       <div>
+                                          <div class="d-flex justify-content-center align-items-center pt-1">1</div>
+                                          <div class="d-flex justify-content-center align-items-center">5.5</div>
+                                       </div>
+                                    </div>
+                                    <div class="col p-2">
+                                       <div class="d-flex justify-content-center align-items-end height-auto w-100 border border-5">
+                                          <div class=" w-100 bg-success volume_5_6"></div>
+                                       </div>
+                                       <div>
+                                          <div class="d-flex justify-content-center align-items-center pt-1">1</div>
+                                          <div class="d-flex justify-content-center align-items-center">5.6</div>
+                                       </div>
+                                    </div>
+                                 </div>
+                             </div>
                            </div>
                         </div>
-                     </div>
-
-                     <div class="row">
-                        <div class="col">
-                           <div class="row height-18">
-                              <div class="col border"></div>
-                              <div class="col border"></div>
-                              <div class="col border"></div>
-                              <div class="col border"></div>
-                              <div class="col border"></div>
-                              <div class="col border"></div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
                </div>
             </div>
 
             <div class="col-9">
                <div class="row">
                   <div class="col-6">
-                     <div class="row height-30">
+                     <div class="row height-30 p-1 pt-2">
                         <div class="col border d-flex justify-content-center align-items-center">Куст 1</div>
                      </div>
                   </div>
                   <div class="col-6">
-                     <div class="row height-30">
+                     <div class="row height-30 p-1 pe-2 pt-2">
                         <div class="col border d-flex justify-content-center align-items-center">Куст 2</div>
                      </div>
                   </div>
                </div>
 
-               <div class="row height-60"> <!--graphs-->
+               <div class="row height-60 p-1 pe-2 pb-2"> <!--graphs-->
                   <div class="col">
                      <div class="row h-50">
-                        <div class="col-1 border bg-light"></div>
+                        <div class="col-1 border bg-light d-flex justify-content-center align-items-center">Шкала 1
+                        </div>
                         <div class="col-11 border d-flex justify-content-center align-items-center">График 1</div>
                      </div>
                      <div class="row h-50">
-                        <div class="col-1 border bg-light"></div>
+                        <div class="col-1 border bg-light d-flex justify-content-center align-items-center">Шкала 2
+                        </div>
                         <div class="col-11 border d-flex justify-content-center align-items-center">График 2</div>
                      </div>
                   </div>
