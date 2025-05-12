@@ -1,5 +1,6 @@
 .height-auto {
     height: 70%;
+    
 }
 
 .volume_4_1 {
@@ -78,10 +79,6 @@
     height: 33.33%;
 }
 
-.height-6 {
-    height: 6vh;
-}
-
 .height-12 {
     height: 12vh;
 }
@@ -90,24 +87,12 @@
     height: 15.34vh;
 }
 
-.height-17 {
-    height: 17.8vh;
-}
-
 .height-18 {
     height: 18vh;
 }
 
-.height-25 {
-    height: 25vh;
-}
-
 .height-30 {
     height: 33.34vh;
-}
-
-.height-50 {
-    height: 50vh;
 }
 
 .height-54 {
@@ -116,6 +101,13 @@
 
 .height-60 {
     height: 66.66vh;
+}
+
+.height-90 {
+    height: 90%;
+}
+.width-85 {
+    width: 85%;
 }
 
 .font {
