@@ -6,12 +6,17 @@ body {
 
 body::before {
     z-index: -1;
-    position: absolute;
-    content: url('../images/sunflower.jpg');
+    position: fixed; /* или absolute, в зависимости от нужного поведения */
+    content: "";
     left: 0;
     top: 0;
+    right: 0;
+    bottom: 0;
     opacity: 0.5;
-
+    background-image: url('../images/sunflower.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 /*--------------------------------------------------------------------------------------------*/
@@ -186,6 +191,6 @@ body::before {
 }
 
 /* Показать оверлей при увеличении */
-.zoomed ~ .zoomed-overlay {
+.zoomed~.zoomed-overlay {
     display: block;
 }
