@@ -20,79 +20,6 @@ body::before {
 }
 
 /*--------------------------------------------------------------------------------------------*/
-#volume4_1 {
-    height: 50%;
-}
-
-#volume4_2 {
-    height: 15%;
-}
-
-#volume4_3 {
-    height: 20%;
-}
-
-#volume4_4 {
-    height: 25%;
-}
-
-#volume4_5 {
-    height: 30%;
-}
-
-#volume4_6 {
-    height: 35%;
-}
-
-#volume4_7 {
-    height: 40%;
-}
-
-#volume4_8 {
-    height: 45%;
-}
-
-#volume4_9 {
-    height: 50%;
-}
-
-#volume4_10 {
-    height: 55%;
-}
-
-#volume4_11 {
-    height: 10%;
-}
-
-#volume4_12 {
-    height: 65%;
-}
-
-#volume5_1 {
-    height: 40%;
-}
-
-#volume5_2 {
-    height: 5%;
-}
-
-#volume5_3 {
-    height: 35%;
-}
-
-#volume5_4 {
-    height: 55%;
-}
-
-#volume5_5 {
-    height: 30%;
-}
-
-#volume5_6 {
-    height: 85%;
-}
-
-/*--------------------------------------------------------------------------------------------*/
 
 .h-30 {
     height: 33.33%;
@@ -157,11 +84,6 @@ body::before {
     cursor: pointer;
 }
 
-.groupZoom4 {
-    transition: all 0.3s ease;
-    will-change: transform;
-}
-
 .zoomed-overlay {
     transition: opacity 0.3s ease;
 }
@@ -176,6 +98,7 @@ body::before {
     z-index: 1000 !important;
     background-color: white !important;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5) !important;
+    /* transition: all 0.3s ease; */
 }
 
 /* Затемнение фона */
